@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter",
+        sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.mathsections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex: 1;
+}
+
+.mathitem {
+    cursor: url('../img/cursor.png'),
+        auto;
+    padding: 50px 40px;
+    border: 1px solid #1111111A;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.mathitem:hover {
+    background-color: #69C7F0;
+}
+
+.mathpicture img {
+    height: 194px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.mathtext h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #414141;
+    margin-bottom: 10px;
+}
+
+.mathtext p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #414141;
+    margin-bottom: 10px;
+}
+
+.inputfield {
+    display: flex;
+    align-items: center;
+}
+
+.inputfield input {
+    background: #F1F1F1;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 95px;
+    margin-right: 10px;
+}
+
+.inputfield span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #414141;
+    margin-right: 15px;
+}
+
+.result {
+    margin: 15px 0;
+}
+
+.result h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #414141;
+}
+
+.result h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #414141;
+}
+
+.mathtext button {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    background: #1090D8;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* Result Section */
+
+.resultsection {
+    border: 1px solid #1111111A;
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    padding: 30px;
+    margin-left: 20px;
+}
+
+.resultsection p {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 20px;
+}

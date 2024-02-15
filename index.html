@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Geometry Genius</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="mathsections">
+
+            <!-- Triangle -->
+            <div class="mathitem">
+                <div class="mathpicture">
+                    <img src="img/triangle.png">
+                </div>
+                <div class="mathtext">
+                    <h3>Triangle</h3>
+                    <p>Area (A) = 0.5 X b X h</p>
+                    <div class="inputfield">
+                        <input id="field1" type="text" placeholder="b">
+                        <span>cm</span>
+                        <input id="field11" type="text" placeholder="h">
+                        <span>cm</span>
+                    </div>
+                    <div class="result">
+                        <h5>Result:</h5>
+                        <h4>Area (A) = <span id="result1">00</span> cm<sup>2</sup></h4>
+                    </div>
+                    <button id="calculate1">Calculate</button>
+                </div>
+            </div>
+
+            <!-- Rectangle -->
+            <div class="mathitem">
+                <div class="mathpicture">
+                    <img src="img/rectangle.png">
+                </div>
+                <div class="mathtext">
+                    <h3>Rectangle</h3>
+                    <p>Area (A) = w X l</p>
+                    <div class="inputfield">
+                        <input id="field2" type="text" placeholder="w">
+                        <span>cm</span>
+                        <input id="field22" type="text" placeholder="l">
+                        <span>cm</span>
+                    </div>
+                    <div class="result">
+                        <h5>Result:</h5>
+                        <h4>Area (A) = <span id="result2">00</span> cm<sup>2</sup></h4>
+                    </div>
+                    <button id="calculate2">Calculate</button>
+                </div>
+            </div>
+
+            <!-- Parallelogram -->
+            <div class="mathitem">
+                <div class="mathpicture">
+                    <img src="img/parallelogram.png">
+                </div>
+                <div class="mathtext">
+                    <h3>Triangle</h3>
+                    <p>Area (A) = b X h</p>
+                    <div class="inputfield">
+                        <input id="field3" type="text" placeholder="b">
+                        <span>cm</span>
+                        <input id="field33" type="text" placeholder="h">
+                        <span>cm</span>
+                    </div>
+                    <div class="result">
+                        <h5>Result:</h5>
+                        <h4>Area (A) = <span id="result3">00</span> cm<sup>2</sup></h4>
+                    </div>
+                    <button id="calculate3">Calculate</button>
+                </div>
+            </div>
+
+            <!-- Rhombus -->
+            <div class="mathitem">
+                <div class="mathpicture">
+                    <img src="img/rhombus.png">
+                </div>
+                <div class="mathtext">
+                    <h3>Triangle</h3>
+                    <p>Area (A) = 0.5 X d<sub>1</sub> X d<sub>2</sub></p>
+                    <div class="inputfield">
+                        <input id="field4" type="text" placeholder="d1">
+                        <span>cm</span>
+                        <input id="field44" type="text" placeholder="d2">
+                        <span>cm</span>
+                    </div>
+                    <div class="result">
+                        <h5>Result:</h5>
+                        <h4>Area (A) = <span id="result4">00</span> cm<sup>2</sup></h4>
+                    </div>
+                    <button id="calculate4">Calculate</button>
+                </div>
+            </div>
+
+            <!-- Pentagon -->
+            <div class="mathitem">
+                <div class="mathpicture">
+                    <img src="img/pentagon.png">
+                </div>
+                <div class="mathtext">
+                    <h3>Triangle</h3>
+                    <p>Area (A) = 0.5 X p X b</p>
+                    <div class="inputfield">
+                        <input id="field5" type="text" placeholder="p">
+                        <span>cm</span>
+                        <input id="field55" type="text" placeholder="b">
+                        <span>cm</span>
+                    </div>
+                    <div class="result">
+                        <h5>Result:</h5>
+                        <h4>Area (A) = <span id="result5">00</span> cm<sup>2</sup></h4>
+                    </div>
+                    <button id="calculate5">Calculate</button>
+                </div>
+            </div>
+
+            <!-- Ellipse -->
+            <div class="mathitem">
+                <div class="mathpicture">
+                    <img src="img/ellipse.png">
+                </div>
+                <div class="mathtext">
+                    <h3>Triangle</h3>
+                    <p>Area (A) = πab</p>
+                    <div class="inputfield">
+                        <input id="field6" type="text" placeholder="a">
+                        <span>cm</span>
+                        <input id="field66" type="text" placeholder="b">
+                        <span>cm</span>
+                    </div>
+                    <div class="result">
+                        <h5>Result:</h5>
+                        <h4>Area (A) = <span id="result6">00</span> cm<sup>2</sup></h4>
+                    </div>
+                    <button id="calculate6">Calculate</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="resultsection">
+            <p>Area Calculation</p>
+        </div>
+    </main>
+
+    <script src="js/calculate.js"></script>
+</body>
+
+</html>
